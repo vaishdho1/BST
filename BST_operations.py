@@ -51,6 +51,7 @@ def max(root):
 def deletion (root, value):
   
     if root == None:
+        print("Node not present in the tree")
         return root
     if value < root.value:
         root.left = deletion(root.left,value)
