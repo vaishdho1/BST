@@ -8,16 +8,7 @@ class Node:
         self.value = value
         self.left = left
         self.right = right
-  
-  class glob_pre:
-    pre_index = 0
-
-    
-def get_index():
-         return glob_pre.pre_index
-
-def increment_pre():
-         glob_pre.pre_index+=1
+        
 
 def preorder_bst_iter(self, a, size):
   
@@ -44,18 +35,18 @@ def preorder_bst_iter(self, a, size):
       
 
 def min(root):
-    if root = None:
+    if root == None:
         return "Tree is empty"
     while root.left != None:
-        root = root.right
-    return root
+        root = root.left
+    return root.value
 
 def max(root):
-    if root = None:
+    if root == None:
         return "Tree is empty"
     while root.right != None:
         root = root.right
-    return root
+    return root.value
 
 def deletion (root, value):
   
