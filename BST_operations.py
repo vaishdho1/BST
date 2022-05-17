@@ -44,7 +44,15 @@ def preorder_bst_iter(self, a, size):
       
 
 def min(root):
-    root = root.left
+    if root = None:
+        return "Tree is empty"
+    while root.left != None:
+        root = root.right
+    return root
+
+def max(root):
+    if root = None:
+        return "Tree is empty"
     while root.right != None:
         root = root.right
     return root
