@@ -1,5 +1,5 @@
-###The project contains basic operations on a Binary Search Tree.
-####The following operations are performed on a search tree.
+### The project contains basic operations on a Binary Search Tree.
+#### The following operations are performed on a search tree.
 
 - Inserting an element in a binary search tree <br />
 - Deleting an element from a binary search tree <br />
